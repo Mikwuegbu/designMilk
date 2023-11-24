@@ -1,0 +1,15 @@
+{
+	"name": "designmilk",
+	"version": "1.0.0",
+	"description": "This Cloned Page if all for educational Pursposes to Master the Use of TailWind Css in\r creating eye catching UI designs. No CopyRight Infringement intended",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.3.5"
+	}
+}
