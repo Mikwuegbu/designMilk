@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	/* this adds a left shadow to the buttons */
+	.custom-box-shadow {
+		box-shadow: -5px 5px 0px black;
+	}
+}
