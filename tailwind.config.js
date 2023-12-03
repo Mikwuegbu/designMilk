@@ -5,6 +5,7 @@ module.exports = {
 		extend: {
 			spacing: {
 				xsMax: '550px',
+				xsMax1: '570px',
 			},
 		},
 	},
