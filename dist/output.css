@@ -798,6 +798,14 @@ video {
   margin-left: 11rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .flex {
   display: flex;
 }
@@ -852,6 +860,14 @@ video {
 
 .max-h-16 {
   max-height: 4rem;
+}
+
+.max-h-8 {
+  max-height: 2rem;
+}
+
+.max-h-10 {
+  max-height: 2.5rem;
 }
 
 .w-36 {
@@ -1568,6 +1584,10 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:max-h-16 {
+    max-height: 4rem;
   }
 
   .md\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
