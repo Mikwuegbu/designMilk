@@ -15,13 +15,25 @@
 		<title>Home - Design Milk</title>
 	</head>
 	<body>
-		<!-- The header (This includes the sticky Navigation) -->
-		<header class="container border-t-2 border-slate-950 px-2">
+		<!-- The Navigation (This includes the sticky Navigation) -->
+		<nav
+			class="bg-white w-full pb-5 top-0 start-0 border-2 shadow-sm shadow-transparent border-gray-200 border-t-black"
+		>
+			<div class="flex space-x-0">
+				<button
+					class="inline-flex items-center w-10 h-1 justify-center text-sm text-gray-500 rounded-lg md:hidden"
+				>
+					<i
+						class="fa-solid fa-bars fa-xl mt-40 ml-44"
+						style="color: #0a101b"
+					></i>
+				</button>
+			</div>
 			<div
-				class="flex container justify-center space-x-xsMax border-b-2 shadow-sm pb-7"
+				class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
 			>
 				<div class="">
-					<h1 class="font-medium text-xl pt-12">
+					<h1 class="invisible font-medium text-xl pt-12 md:visible">
 						Read<i
 							class="fa-solid fa-angle-up fa-rotate-180 fa-sm pr-2 pb-0"
 							style="color: #111b2d"
@@ -33,14 +45,14 @@
 					class="max-h-16 align-middle mt-2"
 					alt=""
 				/>
-				<div class="pt-12">
+				<div class="pt-12 invisible md:visible">
 					<i
 						class="fa-solid fa-magnifying-glass fa-lg"
 						style="color: #0f1728"
 					></i>
 				</div>
 			</div>
-		</header>
+		</nav>
 
 		<!-- The Body of the Page -->
 
